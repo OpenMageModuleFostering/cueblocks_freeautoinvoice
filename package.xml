@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>CueBlocks_FreeAutoInvoice</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://store.cueblocks.com/LICENSE_STORE.txt">EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Automatic Invoice Free Orders</summary>
+    <description>Automatic Invoice Free Orders</description>
+    <notes>Developed By CueBlocks</notes>
+    <authors><author><name>CueBlocks</name><user>Franky</user><email>magento@cueblocks.com</email></author></authors>
+    <date>2013-11-27</date>
+    <time>05:49:42</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="CueBlocks_FreeAutoInvoice.xml" hash="e8466ae582895091735f88b5be2a6360"/></dir></target><target name="magecommunity"><dir><dir name="CueBlocks"><dir name="FreeAutoInvoice"><dir name="Helper"><file name="Data.php" hash="0e3246e4148d012bbb64414288622f8e"/></dir><dir name="Model"><file name="Observer.php" hash="8158ec0ff6888f5c649f516aa30fa732"/></dir><dir name="etc"><file name="config.xml" hash="e05a03e0bfedc880ceb627a6af5cb16c"/><file name="system.xml" hash="fd48fb15259c551364990196b50b4f71"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.2</min><max>7.0.0</max></php></required></dependencies>
+</package>
